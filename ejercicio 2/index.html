@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shorcut icon" href="img/icon.png">
+</head>
+<body>
+    <div id="app_contador">
+        <form name="contador" id="contador">
+            <input type="textfield" name="ans" id="ans" value="" autocomplete="off" readonly>
+
+            <div class="fila">
+                <input type="button" class="boton izq" id="incrementar_10" value="+1" onclick="aumentar(1)">
+                <input type="button" class="boton der" id="reducir_1" value="-1" onclick="reducir(1)">
+            </div>
+
+            <div class="fila">
+                <input type="button" class="boton izq" id="incrementar_10" value="+10" onclick="aumentar(10)">
+                <input type="button" class="boton der" id="reducir_10" value="-10" onclick="reducir(10)">
+            </div>
+
+            <div class="fila">
+                <input type="button" class="boton izq" id="incrementar_100" value="+100" onclick="aumentar(100)">
+                <input type="button" class="boton der" id="reducir_100" value="-100" onclick="reducir(100)">
+            </div>
+
+            <input type="button" class="boton_reset" value="reset" onclick="resetear()">
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

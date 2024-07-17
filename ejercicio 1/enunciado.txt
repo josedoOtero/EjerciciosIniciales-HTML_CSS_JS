@@ -1,0 +1,7 @@
+---------------------------------
+	Ejercicio 1:
+---------------------------------
+Ahora con el uso de html, css y javaScript, haremos una simple calculadora.
+Esta debe tener solo las funciones basicas asin como (+, -, *, /) ademas de poder 
+usar decimales. Como un extra la calculadora debe de contar con un boton para cabiar los 
+colores teniendo una mogalidad clara y otra mas oscura.

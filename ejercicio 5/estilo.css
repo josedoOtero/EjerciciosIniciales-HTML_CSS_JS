@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(2, 14, 39);
+}
+
+.contenedor{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(0, 170, 170);
+}
+
+.calendario, .reloj{
+    background-color: rgba(1, 0, 87, 0.795);
+    padding: 15px;
+    margin: 30px;
+    padding-inline: 30px;
+    align-items: centers;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.658);
+}
+
+#dato_reloj, #dato_calendario{
+    margin-top: 7px;
+    color: aliceblue;
+}
+
+.reloj{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: digital;
+    src: url(fuente/digital-7.ttf);
+}
+#dato_reloj{
+    font-family: digital;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shorcut icon" href="img/icon.png">
+</head>
+<body>
+
+    <div class="capa"></div>
+    <div id="app_calculadora">
+        <form id="calculadora" name="calculadora">
+            <input type="textfield" name="ans" id="ans" value="" autocomplete="off" readonly>
+
+            <div id="fila_1">
+                <input type="button" class="boton especial" id="boton_C" value="C" onclick="document.calculadora.ans.value = ''">
+                <input type="button" class="boton especial" id="boton_delete" value="⌫" onclick="document.calculadora.ans.value = document.calculadora.ans.value.slice(0, -1)">
+                <input type="button" class="boton especial" id="boton_%" value="%" onclick="document.calculadora.ans.value += '/100'">
+                <input type="button" class="boton especial" id="boton_/" value="/" onclick="document.calculadora.ans.value += '/'">
+            </div>
+
+            <div id="fila_2">
+                <input type="button" class="boton" id="boton_7" value="7" onclick="document.calculadora.ans.value += '7'">
+                <input type="button" class="boton" id="boton_8" value="8" onclick="document.calculadora.ans.value += '8'">
+                <input type="button" class="boton" id="boton_9" value="9" onclick="document.calculadora.ans.value += '9'">
+                <input type="button" class="boton especial" id="boton_x" value="x" onclick="document.calculadora.ans.value += '*'">
+            </div>
+
+            <div id="fila_3">
+                <input type="button" class="boton" id="boton_4" value="4" onclick="document.calculadora.ans.value += '4'">
+                <input type="button" class="boton" id="boton_5" value="5" onclick="document.calculadora.ans.value += '5'">
+                <input type="button" class="boton" id="boton_6" value="6" onclick="document.calculadora.ans.value += '6'">
+                <input type="button" class="boton especial" id="boton_-" value="-" onclick="document.calculadora.ans.value += '-'">
+            </div>
+
+            <div id="fila_4">
+                <input type="button" class="boton" id="boton_1" value="1" onclick="document.calculadora.ans.value += '1'">
+                <input type="button" class="boton" id="boton_2" value="2" onclick="document.calculadora.ans.value += '2'">
+                <input type="button" class="boton" id="boton_3" value="3" onclick="document.calculadora.ans.value += '3'">
+                <input type="button" class="boton especial" id="boton_+" value="+" onclick="document.calculadora.ans.value += '+'">
+            </div>
+
+            <div id="fila_5">
+                <input type="button" class="boton especial" id="boton_mode" value="⇄">
+                <input type="button" class="boton" id="boton_0" value="0" onclick="document.calculadora.ans.value += '0'">
+                <input type="button" class="boton" id="boton_." value="." onclick="document.calculadora.ans.value += '.'">
+                <input type="button" class="boton especial" id="boton_=" value="=" onclick="document.calculadora.ans.value = eval(document.calculadora.ans.value)">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

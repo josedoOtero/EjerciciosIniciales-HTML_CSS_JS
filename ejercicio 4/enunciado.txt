@@ -1,0 +1,9 @@
+---------------------------------
+	Ejercicio 4:
+---------------------------------
+Realiza una especie de menu con almenos tres opciones,
+estas opciones puede ser (personajes, productos, paisajes)
+o lo que desees. Lo que debes de hacer es el poder hacer click 
+a una de esta opciones para mostrarla alado mas grande. Miebtras
+la muestres puedes cambiar de opcion de manera q los tres botones 
+no desaperecezan. 

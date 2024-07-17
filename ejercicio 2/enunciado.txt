@@ -1,0 +1,9 @@
+---------------------------------
+	Ejercicio 2:
+---------------------------------
+Para este ejercicio tendremos en cuenta el desarrollo
+de funciones en JavaScript. La idea sera crea un contador
+el cual tendra para sumar y restar 1,10 o 100. Aparte de esto
+sera necesario un boton para reiniciar el valor. Y por ultimo
+deberas en cuenta los limites el contador no bajara de 0 y 
+tendra un numero maximo del que no se pase.
